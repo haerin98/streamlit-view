@@ -16,7 +16,7 @@ add_toggle = st.sidebar.toggle('❤️❤️❤️')
 
 if add_toggle:
     st.sidebar.caption('소리가 조금 클수도 있어!으ㅏㅏ아 부끄럽다,,')
-    st.sidebar.audio('streamlit\Fighting.m4a')
+    st.sidebar.audio('Fighting.m4a')
     
 # 사이드바-슬라이더(만족도)
 point = st.sidebar.slider('', 0, 100)
@@ -55,4 +55,4 @@ with tab2:
     st.text('1년 동안의 노력이 빛을 발할거다!')
     st.subheader('멋지다 이경환!')
     st.caption("매일 다짐하는거야!")
-    st.image('streamlit\picture2.jpg')
+    st.image('picture2.jpg')
